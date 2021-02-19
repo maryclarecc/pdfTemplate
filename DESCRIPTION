@@ -5,5 +5,6 @@ Version: 0.1.0
 Author: MaryClare Colombo
 Maintainer: The package maintainer <maryclarecc@gmail.com>
 Description: Creates a template for a PDF RMarkdown.
+License: Creative Commons
 Encoding: UTF-8
 LazyData: true
