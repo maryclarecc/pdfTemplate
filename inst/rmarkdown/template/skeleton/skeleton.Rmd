@@ -1,18 +1,18 @@
 ---
 title: "Untitled"
-author: "Your Name"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
-output:
-  html_document:
-    toc: true
-    fig_caption: true
-    theme: flatly
+author: "your name here"
+date: "00/00/2021"
+output: "pdf_document"
+fontsize: 12pt
 ---
 
-## Introduction
+```{r setup, include=FALSE}
+library(formatR)
+options(width=90)
+knitr::opts_chunk$set(echo = TRUE,out.width = 40, tidy=T, tidy.opts=list(width.cutoff=73))
+```
 
-This is a very minimal example! The only thing which is changed in this template is a few of the default settings in the YAML. 
+```{r library essential packages}
+library(tidyverse)
+```
 
-## Customisation
-
-A simple template like this might be useful to include if you have a common structure of report that you want to run. For example, you change the author name your name. You can edit the sections to include a generic layout.
