@@ -13,6 +13,6 @@ knitr::opts_chunk$set(echo = TRUE,out.width = 40, tidy=T, tidy.opts=list(width.c
 ```
 
 ```{r library essential packages}
-library(tidyverse)
+suppressMessages(suppressWarnings(library(tidyverse)))
 ```
 
