@@ -2,7 +2,7 @@
 title: "Untitled"
 author: "your name here"
 date: "00/00/2021"
-output: "html_document"
+output: "pdf_document"
 fontsize: 12pt
 ---
 
